@@ -1,0 +1,145 @@
+* {
+  font-family: "Oxygen Mono", monospace;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+  box-shadow: 1px 1px 5px grey;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin-left: 4em;
+  margin-right: 4em;
+  padding: 0.5em;
+}
+
+H1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+.MODULES {
+  display: flex;
+  justify-content: space-around;
+  margin: 6em;
+  text-align: center;
+  font-style: italic;
+}
+
+#SUPERBOOST {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1vh;
+  max-width: fit-content;
+  min-width: 140px;
+}
+#FUNKYENVELOPE {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(73, 74, 82, 0.37);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1vh;
+  max-width: 140px;
+  word-wrap: break-word;
+}
+
+#OVERDRIVE {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1vh;
+  min-width: 140px;
+}
+
+#EXTRALOWCUT {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1vh;
+  min-width: 140px;
+}
+
+.more {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  margin-bottom: 6em;
+  padding: 0.7em;
+}
+
+footer {
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5 em;
+}
+
+#footerImage {
+  max-width: 300px;
+  margin: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 2em;
+}
+
+.blackpadding {
+  display: block;
+  background-color: black;
+  height: 2em;
+}
+footer li {
+  list-style-type: none;
+  margin: 1em;
+  letter-spacing: initial;
+}
+
+.ICONS li {
+  display: inline;
+}
